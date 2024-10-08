@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Regression Suite" verbose="5" >
+
+<test name="OpenCart Search Test">
+	<parameter name="url" value="https://naveenautomationlabs.com/opencart/index.php?route=account/login"/>
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="UITests.OpenCartLoginPageTest" />
+		</classes>
+	</test>
+
+</suite>
